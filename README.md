@@ -8,6 +8,7 @@ Para ter acesso ao instalador premium entre em contato pelo Whatsapp
 - Renovação de certificado
 
 # Investimento Instalador Premium
-R$ 100,00
-Chave PIX: 1313463c-c847-4ae1-9c16-4a893296f110
-Enviar comprovante para silvioerick@hotmail.com
+- R$ 100,00
+- have PIX: 1313463c-c847-4ae1-9c16-4a893296f110
+- Enviar comprovante para silvioerick@hotmail.com
+

@@ -51,7 +51,7 @@ else
 	printf "Autenticação bem-sucedida!\n"
 	printf "Realizando o download do arquivo...\n"
 	TOKEN=$(echo "$OUTPUT" | grep -oP '"session":\{"name":"[^"]+","value":"\K[^"]+')
-curl -OJ -H "Cookie: JSESSIONID=${TOKEN}" "${IZING}/secure/attachment/${FILE_ID}/izing.pro.installer.zip" 
+curl -OJ -H "Cookie: JSESSIONID=${TOKEN}" "${IZING}/secure/attachment/${FILE_ID}/Instalador.premium.izing.io.zip" 
 	if [ $? -eq 0 ]; then
         printf "Download concluído!"
         else
@@ -66,10 +66,9 @@ curl -OJ -H "Cookie: JSESSIONID=${TOKEN}" "${IZING}/secure/attachment/${FILE_ID}
 	sleep 3
 	sudo apt install -y unzip
         sudo apt install -y git
-        unzip izing.pro.installer.zip
-	cd izing.pro.installer
+        unzip Instalador.premium.izing.io.zip
+	cd Instalador.premium.izing.io
 	bash izing
 	cd .. 
-	rm izing.pro.installer.zip && rm -Rf izing.pro.installer
+	rm Instalador.premium.izing.io.zip && rm -Rf Instalador.premium.izing.io
 fi
-

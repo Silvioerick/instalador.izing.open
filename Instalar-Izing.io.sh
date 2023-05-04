@@ -12,19 +12,19 @@ printf "\n"
     printf "██ ██████ ██ ██   ██ ██████ ██ ██ ██████ V.2.2 \n";
     printf "${NC}";
     printf "\n"
-    printf "  Compartilhar, vender ou fornecer essa solução\n";
-    printf "  sem autorização é crime previsto na Artigo 184\n";
-    printf " do código penal que descreve a conduta criminosa\n";
-    printf "  de infringir os direitos autorais do Izing Pro.\n";
+    printf "     Compartilhar, vender ou fornecer essa solução\n";
+    printf "    sem autorização é crime previsto na Artigo 184\n";
+    printf "   do código penal que descreve a conduta criminosa\n";
+    printf "de infringir os direitos autorais do Instalador Premium.\n";
     printf "\n";
-    printf "          PIRATEAR ESSA SOLUÇÃO É CRIME.\n";
+    printf "             PIRATEAR ESSA SOLUÇÃO É CRIME.\n";
     printf "\n";
-    printf "        © Instalador Premium - Izing.io \n";
+    printf "            © Instalador Premium - Izing.io \n";
     printf "\n";
     printf "\n";
     printf "\n\n";
-    printf "   Solicite sua senha de acesso para usar essa solução";
-    printf "  Envie esse código para podermos gerar usuario e senha: $secretins ";
+    printf "         Compre o acesso para o Instalador Premium";
+    printf "               R$ 100,00 PIX (11) 98752-9199 ";
     printf "\n\n\n\n";
 }
 
@@ -34,7 +34,7 @@ printf "Sistema de Autenticação Instalador Premium \n"
 printf 'Username: '
 read USER_NAME
 printf 'Password: '
-read -s PASSWORD
+read PASSWORD
 OUTPUT=`curl -Ss -X POST \
 	-H 'Content-Type: application/json' \
 	-d "{\"username\": \"${USER_NAME}\",\"password\": \"${PASSWORD}\"}" \
